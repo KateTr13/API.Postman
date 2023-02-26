@@ -1,0 +1,838 @@
+{
+  "id": "e13dc6e3-97d1-447d-8246-7ea7a714499e",
+  "version": "2.0",
+  "name": "SeleniumIDE_av.by_test",
+  "url": "https://av.by",
+  "tests": [{
+    "id": "09f7e0d2-5c7a-4b41-bd71-f153e0219a50",
+    "name": "choose_auto",
+    "commands": [{
+      "id": "f18a5801-0a35-40dc-8f30-d00d8e0c6041",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0e004c88-2667-4c94-830b-093e569c1bd1",
+      "comment": "",
+      "command": "click",
+      "target": "name=p-6-0-2-brand",
+      "targets": [
+        ["name=p-6-0-2-brand", "name"],
+        ["css=#p-6-0-2-brand .dropdown__control", "css:finder"],
+        ["xpath=//button[@name='p-6-0-2-brand']", "xpath:attributes"],
+        ["xpath=//div[@id='p-6-0-2-brand']/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "204f9479-939f-4192-b79a-a7718ff411ed",
+      "comment": "",
+      "command": "click",
+      "target": "css=.dropdown-list--opened > .dropdown__listitem:nth-child(6) > .dropdown__listbutton",
+      "targets": [
+        ["css=.dropdown-list--opened > .dropdown__listitem:nth-child(6) > .dropdown__listbutton", "css:finder"],
+        ["xpath=(//button[@type='button'])[8]", "xpath:attributes"],
+        ["xpath=//div[@id='p-6-0-2-brand']/div/div/ul/li[6]/button", "xpath:idRelative"],
+        ["xpath=//li[6]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Audi')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6decea9e-08d7-44c8-be8e-d1400428397d",
+      "comment": "",
+      "command": "click",
+      "target": "css=#p-6-0-3-model .dropdown-floatlabel__value",
+      "targets": [
+        ["css=#p-6-0-3-model .dropdown-floatlabel__value", "css:finder"],
+        ["xpath=//div[@id='p-6-0-3-model']/div/div/button/span/span[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/button/span/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5c47e38d-f330-4e94-a30e-89391d35a10f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.dropdown-list--opened > .dropdown__listitem:nth-child(7) > .dropdown__listbutton",
+      "targets": [
+        ["css=.dropdown-list--opened > .dropdown__listitem:nth-child(7) > .dropdown__listbutton", "css:finder"],
+        ["xpath=(//button[@type='button'])[120]", "xpath:attributes"],
+        ["xpath=//div[@id='p-6-0-3-model']/div/div/ul/li[7]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/ul/li[7]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'A2')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4f8f1fc7-4669-4f8a-a844-37aad551952e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filter__show-result .button__text",
+      "targets": [
+        ["css=.filter__show-result .button__text", "css:finder"],
+        ["xpath=//div[@id='__next']/div[2]/div[2]/div/main/div/div/div/div/div/form/div/div[3]/div/div[2]/div/div[2]/a/span", "xpath:idRelative"],
+        ["xpath=//div[2]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Показать 7 объявлений')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6842a366-704a-4e64-ba23-3c089c23351e",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Audi A2",
+      "targets": [
+        ["linkText=Audi A2", "linkText"],
+        ["css=.listing-item:nth-child(1) .listing-item__link", "css:finder"],
+        ["xpath=//div[@id='__next']/div[2]/main/div/div/div/div[4]/div[3]/div/div[3]/div/div/div/div[2]/h3/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/audi/a2/101174066')]", "xpath:href"],
+        ["xpath=//h3/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Audi A2')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "23c203ea-7686-4eea-9424-a4b4986bb72e",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Audi A2",
+      "targets": [
+        ["linkText=Audi A2", "linkText"],
+        ["css=.listing-item:nth-child(1) .listing-item__link", "css:finder"],
+        ["xpath=//div[@id='__next']/div[2]/main/div/div/div/div[4]/div[3]/div/div[3]/div/div/div/div[2]/h3/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/audi/a2/101174066')]", "xpath:href"],
+        ["xpath=//h3/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Audi A2')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0e3d096b-d930-4c4a-8f3e-301c82d5e7f0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.listing-item:nth-child(1) .listing-item__about",
+      "targets": [
+        ["css=.listing-item:nth-child(1) .listing-item__about", "css:finder"],
+        ["xpath=//div[@id='__next']/div[2]/main/div/div/div/div[4]/div[3]/div/div[3]/div/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[3]/div/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6a710139-fd81-48a2-a065-f79d3fc8eae9",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.listing-item:nth-child(1) .link-text",
+      "targets": [
+        ["css=.listing-item:nth-child(1) .link-text", "css:finder"],
+        ["xpath=//div[@id='__next']/div[2]/main/div/div/div/div[4]/div[3]/div/div[3]/div/div/div/div[2]/h3/a/span", "xpath:idRelative"],
+        ["xpath=//h3/a/span", "xpath:position"]
+      ],
+      "value": "Audi A2"
+    }, {
+      "id": "a78e7329-f94e-41e8-aa74-acbee9b3fecf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button:nth-child(2) > .button__text > span",
+      "targets": [
+        ["css=.button:nth-child(2) > .button__text > span", "css:finder"],
+        ["xpath=//div[@id='__next']/div[2]/main/div/div/div/div[3]/form/div/div[3]/div/div[3]/div[2]/div/button[2]/span/span", "xpath:idRelative"],
+        ["xpath=//button[2]/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2815a5bc-9987-4ae8-96b8-65cd825756ee",
+      "comment": "",
+      "command": "click",
+      "target": "css=.header__logo-wrap path",
+      "targets": [
+        ["css=.header__logo-wrap path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "37cdb6ce-4746-4533-a806-67d1eb8e9369",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#adfox_163240379968878578 img",
+      "targets": [
+        ["css=#adfox_163240379968878578 img", "css:finder"],
+        ["xpath=//img[contains(@src,'https://avatars.mds.yandex.net/get-adfox-content/2765366/230222_adfox_2265715_6261981.a38daac9b4369e1bc2a3b04922939173.png/optimize.webp')]", "xpath:img"],
+        ["xpath=//div[@id='adfox_163240379968878578']/a/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bb962928-8b7b-448b-8cf4-b4cc8ab49122",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=#adfox_163240379968878578 img",
+      "targets": [
+        ["css=#adfox_163240379968878578 img", "css:finder"],
+        ["xpath=//img[contains(@src,'https://avatars.mds.yandex.net/get-adfox-content/2765366/230222_adfox_2265715_6261981.a38daac9b4369e1bc2a3b04922939173.png/optimize.webp')]", "xpath:img"],
+        ["xpath=//div[@id='adfox_163240379968878578']/a/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "1b23ff23-d333-415b-878b-e98cc95c784e",
+    "name": "adjust_filters",
+    "commands": [{
+      "id": "484eae13-2f6c-4cc6-b294-cf36b6680d7e",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e62a3b25-aa43-4c6f-adec-902fa3580493",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button:nth-child(1) > .button__text > span",
+      "targets": [
+        ["css=.button:nth-child(1) > .button__text > span", "css:finder"],
+        ["xpath=//div[@id='__next']/div[2]/div[2]/div/main/div/div/div/div/div/form/div/div[3]/div/div[2]/div/div/button/span/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/button/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e94f176b-f7ec-4c42-8002-9d04190ff7b4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button-group__item:nth-child(1) > .button-group__text",
+      "targets": [
+        ["css=.button-group__item:nth-child(1) > .button-group__text", "css:finder"],
+        ["xpath=//div[@id='p-13-transmission_type']/div/label/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/label/span", "xpath:position"],
+        ["xpath=//span[contains(.,'автомат')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4dc5ddf3-696c-41aa-a8a7-8c29285ded48",
+      "comment": "",
+      "command": "click",
+      "target": "css=#p-18-place_region .dropdown-button__value",
+      "targets": [
+        ["css=#p-18-place_region .dropdown-button__value", "css:finder"],
+        ["xpath=//div[@id='p-18-place_region']/div/div/button/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]/div[2]/div/div/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "41d3f4a1-90fe-45a4-9e61-d93851f7cf2b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.dropdown-list--opened > .dropdown__listitem:nth-child(3) .checkbox__description",
+      "targets": [
+        ["css=.dropdown-list--opened > .dropdown__listitem:nth-child(3) .checkbox__description", "css:finder"],
+        ["xpath=//div[@id='p-18-place_region']/div/div/ul/li[3]/label/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]/div[2]/div/div/ul/li[3]/label/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Гомельская обл.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "46b10af2-2dfe-405f-a6ef-e5add4ce8d70",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filter__grid:nth-child(3) > .filter__item:nth-child(2)",
+      "targets": [
+        ["css=.filter__grid:nth-child(3) > .filter__item:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='__next']/div[2]/div[2]/div/main/div/div/div/div/div/form/div/div[3]/div/div[2]/div/div[3]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[3]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d19ffb5c-0f45-4e6f-abbb-21a4c3af4d66",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filter__grid:nth-child(3) > .filter__item:nth-child(1) > .filter__control:nth-child(3)",
+      "targets": [
+        ["css=.filter__grid:nth-child(3) > .filter__item:nth-child(1) > .filter__control:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='__next']/div[2]/div[2]/div/main/div/div/div/div/div/form/div/div[3]/div/div[2]/div/div[3]/div/div[3]", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "95e7c774-b298-44dd-be90-bdf072625963",
+      "comment": "",
+      "command": "click",
+      "target": "css=#p-19-place_city .dropdown-button__value",
+      "targets": [
+        ["css=#p-19-place_city .dropdown-button__value", "css:finder"],
+        ["xpath=//div[@id='p-19-place_city']/div/div/button/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[3]/div[2]/div/div/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "05f5a4f2-09b0-46c1-ba5d-9116bb3a0561",
+      "comment": "",
+      "command": "click",
+      "target": "css=.dropdown-list--opened > .dropdown__listitem:nth-child(1) .checkbox__description",
+      "targets": [
+        ["css=.dropdown-list--opened > .dropdown__listitem:nth-child(1) .checkbox__description", "css:finder"],
+        ["xpath=//div[@id='p-19-place_city']/div/div/ul/li/label/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[3]/div[2]/div/div/ul/li/label/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "140a6fe5-d79c-406a-8f44-1e0532fd2ae3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.dropdown-list--opened > .dropdown__listitem:nth-child(2) .checkbox__description",
+      "targets": [
+        ["css=.dropdown-list--opened > .dropdown__listitem:nth-child(2) .checkbox__description", "css:finder"],
+        ["xpath=//div[@id='p-19-place_city']/div/div/ul/li[2]/label/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[3]/div[2]/div/div/ul/li[2]/label/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Брагин')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "85ef33a5-e7d5-4bc9-a3ce-47fa5a73aec7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.dropdown-list--opened > .dropdown__listitem:nth-child(3) .checkbox__description",
+      "targets": [
+        ["css=.dropdown-list--opened > .dropdown__listitem:nth-child(3) .checkbox__description", "css:finder"],
+        ["xpath=//div[@id='p-19-place_city']/div/div/ul/li[3]/label/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[3]/div[2]/div/div/ul/li[3]/label/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Буда-Кошелево')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f6a8411d-a63f-4ab1-8615-a360b5d004bf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filter__grid:nth-child(3)",
+      "targets": [
+        ["css=.filter__grid:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='__next']/div[2]/div[2]/div/main/div/div/div/div/div/form/div/div[3]/div/div[2]/div/div[3]", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]/div/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9ea232c3-4e1e-4d17-863c-2874bb6a68c2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filter__grid:nth-child(3) .filter__option:nth-child(3) .checkbox__description",
+      "targets": [
+        ["css=.filter__grid:nth-child(3) .filter__option:nth-child(3) .checkbox__description", "css:finder"],
+        ["xpath=//div[@id='__next']/div[2]/div[2]/div/main/div/div/div/div/div/form/div/div[3]/div/div[2]/div/div[3]/div[3]/div[3]/label/span", "xpath:idRelative"],
+        ["xpath=//div[3]/label/span", "xpath:position"],
+        ["xpath=//span[contains(.,'С видео')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6292e54a-c75a-479e-b20c-2b78f3b4d4ab",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filter__show-result .button__text",
+      "targets": [
+        ["css=.filter__show-result .button__text", "css:finder"],
+        ["xpath=//div[@id='__next']/div[2]/div[2]/div/main/div/div/div/div/div/form/div/div[3]/div/div[2]/div[2]/div[2]/a/span", "xpath:idRelative"],
+        ["xpath=//div[2]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Показать 36 объявлений')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "18c9859a-0778-4952-b970-7fdaf53282b1",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.filter__show-result .button__text",
+      "targets": [
+        ["css=.filter__show-result .button__text", "css:finder"],
+        ["xpath=//div[@id='__next']/div[2]/div[2]/div/main/div/div/div/div/div/form/div/div[3]/div/div[2]/div[2]/div[2]/a/span", "xpath:idRelative"],
+        ["xpath=//div[2]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Показать 36 объявлений')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "043e36ed-0bb6-4bf1-8a66-90da2913b2ce",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.filter__show-result .button__text",
+      "targets": [
+        ["css=.filter__show-result .button__text", "css:finder"],
+        ["xpath=//div[@id='__next']/div[2]/div[2]/div/main/div/div/div/div/div/form/div/div[3]/div/div[2]/div[2]/div[2]/a/span", "xpath:idRelative"],
+        ["xpath=//div[2]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Показать 36 объявлений')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "72237c61-ffd3-4a57-8446-2bc1835a17e4",
+    "name": "check_auto",
+    "commands": [{
+      "id": "b04babc8-00c8-49f8-be38-710e97bae7d5",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2bc470b3-ddbe-4dbc-a153-2678d1f2f609",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav__item:nth-child(1) .nav__dropdown-section:nth-child(1) .nav__dropdown-item:nth-child(1) .nav__dropdown-text",
+      "targets": [
+        ["css=.nav__item:nth-child(1) .nav__dropdown-section:nth-child(1) .nav__dropdown-item:nth-child(1) .nav__dropdown-text", "css:finder"],
+        ["xpath=//div[@id='__next']/div[2]/div[2]/div/header/div/nav/ul/li/div/div/ul/li/a/span", "xpath:idRelative"],
+        ["xpath=//div/ul/li/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Автомобили с пробегом')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "26a315ab-26ba-4812-a5dc-0deab351373e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.catalog__items:nth-child(2) > .catalog__item:nth-child(2) .catalog__title",
+      "targets": [
+        ["css=.catalog__items:nth-child(2) > .catalog__item:nth-child(2) .catalog__title", "css:finder"],
+        ["xpath=//div[@id='__next']/div[2]/main/div/div/div/div[2]/div[2]/div/ul[2]/li[2]/a/span", "xpath:idRelative"],
+        ["xpath=//div/ul[2]/li[2]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Fiat')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8c354f51-14c4-40d5-8515-98d67e1f10bd",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,105.33333587646484)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ec53e123-a8a0-4167-965b-687acf10b718",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,700)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b54550b1-7e11-4206-8e87-f8675f52c372",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,790.6666870117188)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "19269c0c-9cfb-4d53-a6b7-f8d45da32d44",
+      "comment": "",
+      "command": "click",
+      "target": "css=.listing-item:nth-child(1) .listing-item__about",
+      "targets": [
+        ["css=.listing-item:nth-child(1) .listing-item__about", "css:finder"],
+        ["xpath=//div[@id='__next']/div[2]/main/div/div/div/div[5]/div[3]/div/div[3]/div/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[3]/div/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6c79c57e-dfb3-4307-9793-71c5f5760a41",
+      "comment": "",
+      "command": "click",
+      "target": "css=.dropdown-link__value",
+      "targets": [
+        ["css=.dropdown-link__value", "css:finder"],
+        ["xpath=//div[@id='__next']/div[2]/main/div/div/div/div[5]/div[3]/div/div/div/div/div/div/button/span", "xpath:idRelative"],
+        ["xpath=//div[5]/div[3]/div/div/div/div/div/div/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'актуальные')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ff8b31f1-70c3-4b43-b771-91471b6ad692",
+      "comment": "",
+      "command": "click",
+      "target": "css=.dropdown-list--opened > .dropdown__listitem:nth-child(2) > .dropdown__listbutton",
+      "targets": [
+        ["css=.dropdown-list--opened > .dropdown__listitem:nth-child(2) > .dropdown__listbutton", "css:finder"],
+        ["xpath=(//button[@type='button'])[559]", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div[2]/main/div/div/div/div[5]/div[3]/div/div/div/div/div/div/ul/li[2]/button", "xpath:idRelative"],
+        ["xpath=//div[5]/div[3]/div/div/div/div/div/div/ul/li[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'дешёвые')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3437d4e0-f355-4fd8-b058-c4c0f2f31bf4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.header__logo-wrap > svg",
+      "targets": [
+        ["css=.header__logo-wrap > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "8e48ec90-f439-49e2-a995-57529c7e37b3",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#p-6-0-3-model .dropdown-floatlabel__value",
+      "targets": [
+        ["css=#p-6-0-3-model .dropdown-floatlabel__value", "css:finder"],
+        ["xpath=//div[@id='p-6-0-3-model']/div/div/button/span/span[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/button/span/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4d744290-a494-47ff-8971-079be61ce830",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=#p-6-0-3-model .dropdown-floatlabel__value",
+      "targets": [
+        ["css=#p-6-0-3-model .dropdown-floatlabel__value", "css:finder"],
+        ["xpath=//div[@id='p-6-0-3-model']/div/div/button/span/span[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/button/span/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ee39c76b-3c2c-4ea3-aa49-a75dd4aabc30",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#p-6-0-3-model .dropdown-floatlabel__box",
+      "targets": [
+        ["css=#p-6-0-3-model .dropdown-floatlabel__box", "css:finder"],
+        ["xpath=//div[@id='p-6-0-3-model']/div/div/button/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f7f5ec55-7a7d-4b08-a8d9-b3d0a72e13ad",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=#p-6-0-3-model .dropdown-floatlabel__box",
+      "targets": [
+        ["css=#p-6-0-3-model .dropdown-floatlabel__box", "css:finder"],
+        ["xpath=//div[@id='p-6-0-3-model']/div/div/button/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ee8113f3-bb8b-4935-ab9a-809f1c0cbbc5",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#p-7-year .dropdown__box:nth-child(2) .dropdown-floatlabel__box",
+      "targets": [
+        ["css=#p-7-year .dropdown__box:nth-child(2) .dropdown-floatlabel__box", "css:finder"],
+        ["xpath=//div[@id='p-7-year']/div/div[2]/button/span", "xpath:idRelative"],
+        ["xpath=//div[2]/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "d43bd893-d858-4ca3-9e79-f6ed1a263dc8",
+    "name": "vin_check",
+    "commands": [{
+      "id": "74cfb917-6695-4c02-9783-c8e314a19b93",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7a41f8c6-349c-4414-98a9-b09920492fb4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav__item--alt .nav__link-text",
+      "targets": [
+        ["css=.nav__item--alt .nav__link-text", "css:finder"],
+        ["xpath=//div[@id='__next']/div[2]/div[2]/div/header/div/nav/ul/li[6]/a/span", "xpath:idRelative"],
+        ["xpath=//nav/ul/li[6]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Проверка VIN')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ee713bb0-9248-440b-8208-fa1b5548ba07",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button--xlink:nth-child(1) > .button__text",
+      "targets": [
+        ["css=.button--xlink:nth-child(1) > .button__text", "css:finder"],
+        ["xpath=//div[@id='__next']/div[2]/main/div/div/div/div/div[2]/div/button/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Где найти VIN')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "250d9d45-8daa-44f6-809e-ac94a60c0475",
+      "comment": "",
+      "command": "click",
+      "target": "css=.modal--active .modal__cell",
+      "targets": [
+        ["css=.modal--active .modal__cell", "css:finder"],
+        ["xpath=//div[@id='modal-root']/div[2]/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0a208a8b-c7fd-48a2-b9cf-5f19eba849b4",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Пример отчёта",
+      "targets": [
+        ["linkText=Пример отчёта", "linkText"],
+        ["css=.vin-check-form__links > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Пример отчёта')]", "xpath:link"],
+        ["xpath=//div[@id='__next']/div[2]/main/div/div/div/div/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/vin/example')]", "xpath:href"],
+        ["xpath=//div[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Пример отчёта')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0ff879f3-e884-4a6f-be04-dbecdc6fd69f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Смотреть на сайте",
+      "targets": [
+        ["linkText=Смотреть на сайте", "linkText"],
+        ["css=.vin-report-card__link > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Смотреть на сайте')]", "xpath:link"],
+        ["xpath=//div[@id='__next']/div[2]/main/div/div/div/section/section/div[7]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/')])[31]", "xpath:href"],
+        ["xpath=//div[7]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Смотреть на сайте')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win3627",
+      "windowTimeout": 2000
+    }, {
+      "id": "8da8edef-38df-4709-8329-1ff9cc838fc2",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win3627}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "947d687e-e6b4-44b1-a7f0-a8dda35e5a74",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,26.66666603088379)",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "db9d9246-d553-4581-a598-88c6ac078e63",
+    "name": "news_auto_vincheck",
+    "commands": [{
+      "id": "12a4c8fa-59a3-4675-a855-0624d3893ac0",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "51b8cb07-a719-48f7-b644-d19490a70354",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav__item:nth-child(3) .nav__link-text",
+      "targets": [
+        ["css=.nav__item:nth-child(3) .nav__link-text", "css:finder"],
+        ["xpath=//div[@id='__next']/div[2]/div[2]/div/header/div/nav/ul/li[3]/a/span", "xpath:idRelative"],
+        ["xpath=//nav/ul/li[3]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Журнал')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e8ecd39b-7cf4-47cd-a615-f7807e797673",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.nav__item:nth-child(3) .nav__link-text",
+      "targets": [
+        ["css=.nav__item:nth-child(3) .nav__link-text", "css:finder"],
+        ["xpath=//div[@id='__next']/div[2]/div[2]/div/header/div/nav/ul/li[3]/a/span", "xpath:idRelative"],
+        ["xpath=//nav/ul/li[3]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Журнал')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3a3a36f2-8a42-451b-b0ff-bdc0c2e3c0b8",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,900)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cbc36064-ffcb-4bc4-aae4-49a9e25e2bcd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.journal__cell:nth-child(5) .journal-item__title",
+      "targets": [
+        ["css=.journal__cell:nth-child(5) .journal-item__title", "css:finder"],
+        ["xpath=//div[@id='__next']/div[2]/main/div/div/div/div/div[2]/div[2]/div[5]/article/a/h2", "xpath:idRelative"],
+        ["xpath=//div[5]/article/a/h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'«Четвёртый» Volkswagen Golf R32 без пробега выставили на продажу. За сколько его готовы взять?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b7a504de-6cca-4ac4-959f-f2350e2428bd",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8fb72594-6a2c-48e8-849a-cf450761ec17",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,5500)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ddcf8345-f198-4dab-bb03-ba5766ba48d4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.journal__related:nth-child(4) .journal__cell:nth-child(1) .journal-item__title",
+      "targets": [
+        ["css=.journal__related:nth-child(4) .journal__cell:nth-child(1) .journal-item__title", "css:finder"],
+        ["xpath=//div[@id='__next']/div[2]/main/div/div/div/div/div[3]/div/div/article/a/h2", "xpath:idRelative"],
+        ["xpath=//a/h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'«Самое популярное сочетание — это 1.5 dCi и механика». Пятёрка наиболее востребованных авто у подборщиков')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "273d9fa2-bbee-4776-863e-19abf7a74a7c",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ffbfbdbe-c374-4a5e-ae37-8a54892f0d91",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Kia Rio IV X-Line",
+      "targets": [
+        ["linkText=Kia Rio IV X-Line", "linkText"],
+        ["css=p:nth-child(2) > strong > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Kia Rio IV X-Line')]", "xpath:link"],
+        ["xpath=//div[@id='__next']/div[2]/main/div/div/div/div/div/div[2]/div/div/div[3]/p[2]/strong/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://cars.av.by/kia/rio')]", "xpath:href"],
+        ["xpath=//strong/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Kia Rio IV X-Line')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win9694",
+      "windowTimeout": 2000
+    }, {
+      "id": "bc3a96a3-8a1d-4833-9c6a-a20476de1d6b",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win9694}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4af22fda-6b43-4be4-85d2-7ec7758d449b",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,52)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "82a1daec-b982-4034-aca8-2ddc0ea27c19",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,952)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "57226ac4-90f6-4c55-9d47-223fd2663bc5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.listing-item:nth-child(1) .link-text",
+      "targets": [
+        ["css=.listing-item:nth-child(1) .link-text", "css:finder"],
+        ["xpath=//div[@id='__next']/div[2]/main/div/div/div/div[5]/div[3]/div/div[3]/div/div/div/div[2]/h3/a/span", "xpath:idRelative"],
+        ["xpath=//h3/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Kia Rio IV · Рестайлинг')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6bd5fe28-f7ca-4b7d-a033-fe805dd2761a",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f2aa5691-5885-4da6-a95c-d4736e98b7a9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button--xlink > .button__text > span",
+      "targets": [
+        ["css=.button--xlink > .button__text > span", "css:finder"],
+        ["xpath=//div[@id='__next']/div[2]/main/div/div/div/div/div[3]/div[2]/div[2]/div[2]/button/span/span", "xpath:idRelative"],
+        ["xpath=//button/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2e3f7aae-ee90-4691-bde4-cd5cb8b2e5a7",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.button--xlink > .button__text > span",
+      "targets": [
+        ["css=.button--xlink > .button__text > span", "css:finder"],
+        ["xpath=//div[@id='__next']/div[2]/main/div/div/div/div/div[3]/div[2]/div[2]/div[2]/button/span/span", "xpath:idRelative"],
+        ["xpath=//button/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b62432b8-97f9-49db-a3ae-05ab680445f9",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.button--xlink > .button__text > span",
+      "targets": [
+        ["css=.button--xlink > .button__text > span", "css:finder"],
+        ["xpath=//div[@id='__next']/div[2]/main/div/div/div/div[2]/div[3]/div[2]/div[2]/div[2]/button/span/span", "xpath:idRelative"],
+        ["xpath=//div[2]/button/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f57b89fb-337c-4a46-bb6c-276301bd28f3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.drawer__overlay",
+      "targets": [
+        ["css=.drawer__overlay", "css:finder"],
+        ["xpath=//div[@id='__next']/div[2]/main/div/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f6bd8603-2d7c-4c0b-9ee8-49716466f002",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,900)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "400f8159-963d-4cb5-81ad-2a5afc07da83",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Пример отчёта",
+      "targets": [
+        ["linkText=Пример отчёта", "linkText"],
+        ["css=.card-vin__action > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Пример отчёта')]", "xpath:link"],
+        ["xpath=//div[@id='__next']/div[2]/main/div/div/div/div[2]/div[3]/section/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://av.by/vin/example')]", "xpath:href"],
+        ["xpath=//section/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Пример отчёта')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win2746",
+      "windowTimeout": 2000
+    }, {
+      "id": "6765ae41-e86c-43bb-83dc-dd8997a4662a",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win2746}",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "63411def-9161-4ca5-acf4-2b9481dcbcd3",
+    "name": "av_testsuite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["09f7e0d2-5c7a-4b41-bd71-f153e0219a50", "1b23ff23-d333-415b-878b-e98cc95c784e", "72237c61-ffd3-4a57-8446-2bc1835a17e4", "d43bd893-d858-4ca3-9e79-f6ed1a263dc8", "db9d9246-d553-4581-a598-88c6ac078e63"]
+  }],
+  "urls": ["https://av.by/"],
+  "plugins": []
+}
